@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  margin:80px auto 0 auto;
+  max-width: 1200px;
+}
+.nav-container{
+  margin:auto
+}
+a{
+  text-decoration: none
+}
+.nav-container svg {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+.grid{
+  width:50px;
+}
