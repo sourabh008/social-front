@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/social-front/static/css/main.df633d31.chunk.css",
+    "main.js": "/social-front/static/js/main.0091d705.chunk.js",
+    "main.js.map": "/social-front/static/js/main.0091d705.chunk.js.map",
+    "runtime~main.js": "/social-front/static/js/runtime~main.4e9a2d55.js",
+    "runtime~main.js.map": "/social-front/static/js/runtime~main.4e9a2d55.js.map",
+    "static/js/2.b932aedb.chunk.js": "/social-front/static/js/2.b932aedb.chunk.js",
+    "static/js/2.b932aedb.chunk.js.map": "/social-front/static/js/2.b932aedb.chunk.js.map",
+    "index.html": "/social-front/index.html",
+    "precache-manifest.457b815a837c674ca1a85dbae36d9869.js": "/social-front/precache-manifest.457b815a837c674ca1a85dbae36d9869.js",
+    "service-worker.js": "/social-front/service-worker.js",
+    "static/css/main.df633d31.chunk.css.map": "/social-front/static/css/main.df633d31.chunk.css.map"
+  }
+}
