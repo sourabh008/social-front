@@ -1,3 +1,13 @@
-importScripts("/precache-manifest.8a8de0c95a08c338109daa601ba35b31.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.8ead1345e948345d45ae093ae0795fc2.js", "/workbox-v4.3.1/workbox-sw.js");
+workbox.setConfig({modulePathPrefix: "/workbox-v4.3.1"});
+// See https://developers.google.com/web/tools/workbox/guides/configure-workbox
+workbox.core.setLogLevel(workbox.core.LOG_LEVELS.debug);
 
+self.addEventListener('install', event => event.waitUntil(self.skipWaiting()));
+self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));
 
+// We need this in Webpack plugin (refer to swSrc option): https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin#full_injectmanifest_config
+workbox.precaching.precacheAndRoute(self.__precacheManifest);
+
+// app-shell
+workbox.routing.registerRoute("/", workbox.strategies.networkFirst());
